@@ -4,6 +4,32 @@ A Google ADK–powered prototype flight booking system with multi-agent orchestr
 Multiagent Flight Booking System (Prototype)
 A cloud-ready, Docker-orchestrated multi-agent flight booking prototype powered by Google ADK, FastAPI microservices, Streamlit UI, and agent-driven orchestration. This system demonstrates a modern, modular, and production-style architecture for automated flight search and booking workflows.
 
+<p align="center">
+
+  <!-- Python -->
+  <img src="https://img.shields.io/badge/Python-3.10-blue?logo=python&logoColor=white" alt="Python">
+
+  <!-- FastAPI -->
+  <img src="https://img.shields.io/badge/FastAPI-Microservices-009688?logo=fastapi&logoColor=white" alt="FastAPI">
+
+  <!-- Streamlit -->
+  <img src="https://img.shields.io/badge/Streamlit-UI-ee2c4a?logo=streamlit&logoColor=white" alt="Streamlit">
+
+  <!-- Docker -->
+  <img src="https://img.shields.io/badge/Docker-Containerized-2496ED?logo=docker&logoColor=white" alt="Docker">
+
+  <!-- Google ADK -->
+  <img src="https://img.shields.io/badge/Google%20ADK-Multiagent%20Framework-4285F4?logo=google&logoColor=white" alt="Google ADK">
+
+  <!-- Status -->
+  <img src="https://img.shields.io/badge/Status-Prototype-orange?style=flat-square" alt="Prototype">
+
+  <!-- License -->
+  <img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" alt="MIT License">
+
+</p>
+
+
 Project Overview:
 This prototype showcases a scalable multi-agent architecture where each agent handles a specialized responsibility:
 Search Agent → Handles flight lookup logic
