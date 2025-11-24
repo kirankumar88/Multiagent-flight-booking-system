@@ -1,0 +1,28 @@
+# Environment variables
+python-dotenv
+
+# Google ADK + Gemini GenAI
+google-adk
+google-genai
+
+# Web framework for microservices
+fastapi
+
+# Data models for request/response validation
+pydantic
+
+# Metrics & observability
+prometheus-client
+
+# HTTP clients used in orchestrator + tools + api_client
+httpx
+
+# ASGI server for your FastAPI microservices
+uvicorn
+
+# UI Layer (your Streamlit front-end)
+streamlit
+
+# Optional but recommended for ADK + GenAI protocol stability
+protobuf
+grpcio

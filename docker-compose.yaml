@@ -1,0 +1,30 @@
+services:
+
+  search:
+    build: .
+    command: uvicorn services.search_service:app --host 0.0.0.0 --port 8001
+    ports:
+      - "8001:8001"
+
+  booking:
+    build: .
+    command: uvicorn services.booking_service:app --host 0.0.0.0 --port 8002
+    ports:
+      - "8002:8002"
+
+  orchestrator:
+    build: .
+    command: uvicorn services.orchestrator_service:app --host 0.0.0.0 --port 8004
+    ports:
+      - "8004:8004"
+    depends_on:
+      - search
+      - booking
+
+  ui:
+    build: .
+    command: streamlit run ui/app.py --server.port=8501 --server.address=0.0.0.0
+    ports:
+      - "8501:8501"
+    depends_on:
+      - orchestrator
